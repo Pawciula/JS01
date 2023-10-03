@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="container">
+<header>
+	Zastosowanie zmiennych i stałych w JavaScript
+</header>
+<nav>
+	<script src="menu.js"></script>
+</nav>
+<article>
+	<h1>Zadanie 4</h1>
+	<p>Zdefiniuj zmienne przechowujące długość promienia oraz wysokość walca. Oblicz pole i objętość figury, a następnie wyprowadź wyniki na ekran.</p>
+	<p>Do wyznaczenia wartości liczby &Pi; użyj stałej Math.PI (stała jest zdefiniowana w standardzie języka JavaScript).</p>
+	<a href="https://www.w3schools.com/jsref/jsref_pi.asp" target="_blank">Więcej o stałej Math.PI</a>
+	<img src="images/walec.png" alt="walec">
+	
+	<div class="zadanie">
+		<!-- Zadanie 4 -->
+		<script>
+			let h = 10;
+			let r = 5;
+			const PI = Math.PI;
+			let P = 2*PI*r*r+2*PI*r*h;
+			let V = PI*r*r*h
+			document.write(`PI=${PI}<br>`)
+			document.write(`r=${r}<br>`)
+			document.write(`P=${P}<br>`)
+			document.write(`V=${V}<br>`)
+		</script>
+	</div>
+
+</article>
+</div>
+</body>
+</html>

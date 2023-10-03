@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="container">
+<header>
+	Zastosowanie zmiennych i stałych w JavaScript
+</header>
+<nav>
+	<script src="menu.js"></script>
+</nav>
+<article>
+	<h1>Zmiana wartości zmiennych</h1>
+	<p>Podczas pisania programów często zachodzi konieczność zwiększenia lub zmniejszenia wartości zmiennej. Operację te przeprowadza się za pomocą przypisania wartości do zmiennej (operator <b>=</b>).</p>
+	<img src="images/przypisanie.png" alt="przypisanie">
+	<p>Zamiast pełnych zapisów operacji na zmiennych często używa się ich skróconej postaci.</p>
+	<img src="images/skroty.png" alt="operacje na zmiennych">
+	<p>Przypadkiem szczególnym jest zwiększenie lub zmniejszenie wartości zmiennej o jeden (wartość przechowywana w zmiennej musi być całkowita). Operacje te noszą nazwy: <b>inkrementacja</b> (zwiększenie o jeden) oraz <b>dekrementacja</b> (zmniejszenie o jeden).</p>
+	<img src="images/inkrementacja_dekrementacja.png" alt="inkrementacja i dekrementacja">
+	<p>Rozróżniamy dwa rodzaje inkrementacji i dwa rodzaje dekrementacji:</p>
+	<ul class="not">
+		<li><b>postinkrementacja</b> - program najpierw używa zmiennej, a potem zwiększa jej wartość o jeden.</li>
+		<li><b>preinkrementacja</b> - program najpierw zwiększa wartość zmiennej o jeden, a potem jej używa.</li>
+		<li><b>postdekrementacja</b> - program najpierw używa zmiennej, a potem zmniejsza jej wartość o jeden.</li>
+		<li><b>predekrementacja</b> - program najpierw zmniejsza wartość zmiennej o jeden, a potem jej używa.</li>
+	</ul>
+	<img src="images/rodzaje.png" alt="rodzaje inkrementacji i dekrementacji">
+	
+	<h2>Zadanie 12</h2>
+	<p>Utwórz skrypt ilustrujący inkrementację i dekrementację zmiennych. W tym celu:</p>
+	<ul>
+		<li>zdefiniuj zmienną przechowującą liczbę całkowitą, a następnie wyświetl ją (wartość zmiennej poprzedź napisem, np. x = ).</li>
+		<li>w nowej linii wyświetl wartość zmiennej podczas wykonywanej operacji (np. x++, wyświetl też odpowiedni napis).</li>
+		<li>ponownie wyświetl wartość zmiennej poprzedzając ją napisem jak w pierwszym punkcie.</li>
+		<li>zmień wartość zmiennej (nie twórz nowej) i powtórz czynności dla pozostałych operacji (++x, x--, --x).</li>
+	</ul>
+		
+	<div class="zadanie">
+		<!-- Zadanie 12 -->
+		<script>
+		
+			let x = 5;
+			document.write(`x = ${x}<br>`)
+
+		
+			x++;
+			document.write(`x++ =  + ${x}<br>`);
+			document.write(`x =  + ${x}<br>`);
+
+			++x;
+			document.write(`++x = ${x}<br>`);
+			document.write(`x =  + ${x}<br>`);
+
+			x--;
+			document.write(`x-- =  + ${x}<br>`);
+			document.write(`x =  + ${x}<br>`);
+
+		
+			--x;
+			document.write(`--x =  + ${x}<br>`);
+			document.write(`x =  + ${x}<br>`);
+
+		</script>
+	</div>
+
+</article>
+</div>
+</body>
+</html>

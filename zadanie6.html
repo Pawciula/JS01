@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="container">
+<header>
+	Zastosowanie zmiennych i stałych w JavaScript
+</header>
+<nav>
+	<script src="menu.js"></script>
+</nav>
+<article>
+	<h1>Zadanie 6</h1>
+	<p>Zdefiniuj stałą przechowującą wartość podatku VAT (23 %, użyj ułamka dziesiętnego) oraz zmienne przechowujące liczbę sztuk produktu i jego cenę netto (bez podatku VAT). Wyniki wyprowadź na ekran w postaci podanej niżej (liczba sztuk 8, cena 300):</p>
+	<p><b><i>Kupiłeś 8 sztuk po 300 PLN netto. Do zapłaty 2952 PLN z VAT-em.</i></b></p>
+	
+	<div class="zadanie">
+		<!-- Zadanie 6 -->
+		<script>
+			const VAT = 0.23;
+			let ilosc_sztuk = 8;
+			let cena_netto = 300;
+			let cena_brutto = cena_netto * (1 + VAT);
+			let do_zaplaty = ilosc_sztuk * cena_brutto;
+			document.write(`${do_zaplaty}`)
+		</script>
+	</div>
+
+</article>
+</div>
+</body>
+</html>

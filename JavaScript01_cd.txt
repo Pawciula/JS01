@@ -1,0 +1,1 @@
+﻿Przenieś zawartość archiwum do katalogu JavaScript01. W skrypcie menu.js dokonaj zmian tak, aby w menu pojawiły się linki do zadań 7, 8, 9, 10 i 11 oraz link do strony zmiana.html z treścią Zmiana wartości zmiennych.

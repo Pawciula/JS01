@@ -1,0 +1,12 @@
+document.write('<a href="index.html">Strona główna</a>');
+document.write('<a href="zadanie1.html">Zadanie 1</a>');
+document.write('<a href="zadanie2.html">Zadanie 2</a>');
+document.write('<a href="zadanie3.html">Zadanie 3</a>');
+document.write('<a href="zadanie4.html">Zadanie 4</a>');
+document.write('<a href="zadanie5.html">Zadanie 5</a>');
+document.write('<a href="zadanie6.html">Zadanie 6</a>');
+document.write('<a href="zadanie7.html">Zadanie 7</a>');
+document.write('<a href="zadanie8.html">Zadanie 8</a>');
+document.write('<a href="zadanie9.html">Zadanie 9</a>');
+document.write('<a href="zadanie10.html">Zadanie 10</a>');
+document.write('<a href="zadanie11.html">Zadanie 11</a>');

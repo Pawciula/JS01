@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="container">
+<header>
+	Zastosowanie zmiennych i stałych w JavaScript
+</header>
+<nav>
+	<script src="menu.js"></script>
+</nav>
+<article>
+	<h1>Zadanie 11</h1>
+	<p>Zmodyfikuj skrypt z zadania 10 tak, aby wyprowadzał wyniki na ekran w postaci:</p>
+	<p><b><i>1280 B = 1 kB 256 B</i></b></p>
+	
+	<div class="zadanie">
+		<!-- Zadanie 11 -->
+		<script>
+			let B = 1280
+    		var kB = Math.floor(B / 1024);
+   			var pozostale = B % 1024;
+
+    		document.write(B + " B = " + kB + " kB " + pozostale + " B");
+		</script>
+	</div>
+
+</article>
+</div>
+</body>
+</html>

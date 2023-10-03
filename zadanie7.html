@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="container">
+<header>
+	Zastosowanie zmiennych i stałych w JavaScript
+</header>
+<nav>
+	<script src="menu.js"></script>
+</nav>
+<article>
+	<h1>Zadanie 7</h1>
+	<p>Zdefiniuj zmienne przechowujące dwie liczby całkowite. Wyznacz wyniki działań bitowych na tych liczbach (AND, OR, XOR) oraz wyniki negacji obu liczb (NOT) i wyniki przesunieć bitowych o jeden (dla jednej liczby w prawo, dla drugiej w lewo). Wyniki wyprowadź na ekran jak na zrzucie.</p>
+	<a href="https://www.w3schools.com/js/js_operators.asp" target="_blank">Więcej o operatorach bitowych w JavaScript (szukaj w części JavaScript Bitwise Operators)</a>
+	<img src="images/operatory_bitowe.png" alt="operatory bitowe">
+	<p>Zamień podane przez ciebie liczby na postać binarną i sprawdź, czy twój skrypt daje poprawne wyniki.</p>
+	
+	<div class="zadanie">
+		<!-- Zadanie 7 -->
+		<script>
+			let a = 5;
+			let b = 3;
+			document.write("a = " + a + "<br>");
+			document.write("b = " + b + "<br>");
+			document.write("a AND b = " + (a & b) + "<br>");
+			document.write("a OR b = " + (a | b) + "<br>");
+			document.write("a XOR b = " + (a ^ b) + "<br>");
+			document.write("NOT a = " + (~a) + "<br>");
+			document.write("NOT b = " + (~b) + "<br>");
+			document.write("a<<1 = " + (a<<1) + "<br>");
+			document.write("b>>1= " + (b>>1) + "<br>");
+		</script>
+	</div>
+
+</article>
+</div>
+</body>
+</html>

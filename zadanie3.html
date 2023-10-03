@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="container">
+<header>
+	Zastosowanie zmiennych i stałych w JavaScript
+</header>
+<nav>
+	<script src="menu.js"></script>
+</nav>
+<article>
+	<h1>Zadanie 3</h1>
+	<p>Zdefiniuj stałą przechowującą wartość liczby &Pi; (przyjmij, że wynosi ona 3.14) oraz zmienną przechowującą długość promienia koła. Oblicz obwód i pole figury, a następnie wyprowadź wyniki na ekran.</p>
+	<a href="https://www.w3schools.com/js/js_const.asp" target="_blank">Więcej o stałych w JavaScript</a>		
+	<img src="images/kolo.png" alt="kolo">
+	
+	<div class="zadanie">
+		<!-- Zadanie 3 -->
+		<script>
+			const PI = 3.14;
+			let r = 10;
+			let O = 2*PI*r;
+			let P = 2*PI*r*r;
+			document.write(`PI=${PI}<br>`)
+			document.write(`r=${r}<br>`)
+			document.write(`O=${O}<br>`)
+			document.write(`P=${P}<br>`)
+		</script>
+	</div>
+
+</article>
+</div>
+</body>
+</html>
